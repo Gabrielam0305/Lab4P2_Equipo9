@@ -9,17 +9,19 @@ package lab4p2_equipo9;
  * @author luism
  */
 public abstract class Piezas {
-    protected int y;
-    protected String x;
+    
+    protected String x, y;
     protected String color;
     protected String Representacion;
 
-    public Piezas(int y, String x, String color, String Representacion) {
-        this.y = y;
+    public Piezas(String x, String y, String color, String Representacion) {
         this.x = x;
+        this.y = y;
         this.color = color;
         this.Representacion = Representacion;
     }
+
+    
     
 
    
@@ -37,13 +39,15 @@ public abstract class Piezas {
         this.x = x;
     }
 
-    public int getY() {
+    public String getY() {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(String y) {
         this.y = y;
     }
+
+    
 
     public String getColor() {
         return color;

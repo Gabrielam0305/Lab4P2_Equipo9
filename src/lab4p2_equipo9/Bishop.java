@@ -13,10 +13,10 @@ public class Bishop extends Piezas{
         super();
     }
 
-    public Bishop(int y, String x, String color, String Representacion) {
-        super(y, x, color, Representacion);
+    public Bishop(String x, String y, String color, String Representacion) {
+        super(x, y, color, Representacion);
     }
-  
+
     
     public String getX() {
         return x;
@@ -26,13 +26,15 @@ public class Bishop extends Piezas{
         this.x = x;
     }
 
-    public int getY() {
+    public String getY() {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(String y) {
         this.y = y;
     }
+
+    
 
     public String getColor() {
         return color;

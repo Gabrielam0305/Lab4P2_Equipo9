@@ -15,9 +15,11 @@ public class Pawn extends Piezas{
         super();
     }
 
-    public Pawn(int y, String x, String color, String Representacion) {
-        super(y, x, color, Representacion);
+    public Pawn(String x, String y, String color, String Representacion) {
+        super(x, y, color, Representacion);
     }
+
+    
 
     
 
@@ -31,13 +33,15 @@ public class Pawn extends Piezas{
         this.x = x;
     }
 
-    public int getY() {
+    public String getY() {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(String y) {
         this.y = y;
     }
+
+    
 
     public String getColor() {
         return color;

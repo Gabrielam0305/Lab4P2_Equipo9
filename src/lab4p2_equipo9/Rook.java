@@ -13,17 +13,19 @@ public class Rook extends Piezas{
     public Rook() {
     }
 
-    public Rook(int y, String x, String color, String Representacion) {
-        super(y, x, color, Representacion);
+    public Rook(String x, String y, String color, String Representacion) {
+        super(x, y, color, Representacion);
     }
 
-    public int getY() {
+    public String getY() {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(String y) {
         this.y = y;
     }
+
+    
 
     public String getX() {
         return x;

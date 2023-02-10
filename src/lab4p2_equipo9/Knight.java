@@ -14,11 +14,17 @@ public class Knight extends Piezas{
         super();
     }
 
-    public Knight(int y, String x, String color, String Representacion) {
-        super(y, x, color, Representacion);
+    public Knight(String x, String y, String color, String Representacion) {
+        super(x, y, color, Representacion);
     }
 
-    
+    public String getY() {
+        return y;
+    }
+
+    public void setY(String y) {
+        this.y = y;
+    }
 
     
     
@@ -30,13 +36,7 @@ public class Knight extends Piezas{
         this.x = x;
     }
 
-    public int getY() {
-        return y;
-    }
-
-    public void setY(int y) {
-        this.y = y;
-    }
+    
 
     public String getColor() {
         return color;
