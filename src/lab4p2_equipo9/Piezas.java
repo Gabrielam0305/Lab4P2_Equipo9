@@ -44,9 +44,6 @@ public abstract class Piezas {
         this.y = y;
     }
 
-    
-    
-
     public String getColor() {
         return color;
     }
@@ -65,5 +62,7 @@ public abstract class Piezas {
     
     
     
-    public abstract boolean movimiento(Object [][]o);
+    public abstract boolean movimiento(Object [][]o,int f, int c, int c1,int c2);
+        
+  
 }
