@@ -9,7 +9,7 @@ package lab4p2_equipo9;
  * @author luism
  */
 public class Pawn extends Piezas{
-    private boolean fMove = true;
+    
     
     public Pawn() {
         super();
@@ -57,10 +57,6 @@ public class Pawn extends Piezas{
     
     
     public void movimiento(){
-        if(fMove==true){
-            //poder mover hasta 2 
-       }else{
-            //
-        }
+        
     }
 }

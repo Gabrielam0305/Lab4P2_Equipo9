@@ -11,23 +11,10 @@ package lab4p2_equipo9;
 public class Rook extends Piezas{
 
     public Rook() {
-        super();
     }
 
     public Rook(int y, String x, String color, String Representacion) {
         super(y, x, color, Representacion);
-    }
-
-    
-
-    
-    
-    public String getX() {
-        return x;
-    }
-
-    public void setX(String x) {
-        this.x = x;
     }
 
     public int getY() {
@@ -36,6 +23,14 @@ public class Rook extends Piezas{
 
     public void setY(int y) {
         this.y = y;
+    }
+
+    public String getX() {
+        return x;
+    }
+
+    public void setX(String x) {
+        this.x = x;
     }
 
     public String getColor() {
@@ -53,6 +48,8 @@ public class Rook extends Piezas{
     public void setRepresentacion(String Representacion) {
         this.Representacion = Representacion;
     }
+    
+    
     
     @Override
     public void movimiento() {

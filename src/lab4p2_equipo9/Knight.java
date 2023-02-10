@@ -9,7 +9,7 @@ package lab4p2_equipo9;
  * @author luism
  */
 public class Knight extends Piezas{
-
+    
     public Knight() {
         super();
     }
@@ -59,6 +59,5 @@ public class Knight extends Piezas{
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    
     
 }

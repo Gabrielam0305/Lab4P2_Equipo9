@@ -9,7 +9,6 @@ package lab4p2_equipo9;
  * @author luism
  */
 public class Bishop extends Piezas{
-
     public Bishop() {
         super();
     }
