@@ -8,9 +8,9 @@ package lab4p2_equipo9;
  *
  * @author luism
  */
-public class Pawn {
+public class Knight {
 
-    public Pawn() {
+    public Knight() {
         super();
     }
     
