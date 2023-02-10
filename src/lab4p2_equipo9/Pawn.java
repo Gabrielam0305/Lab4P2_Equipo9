@@ -15,11 +15,9 @@ public class Pawn extends Piezas{
         super();
     }
 
-    public Pawn(int x, int y, String color, String Representacion, boolean valido) {
-        super(x, y, color, Representacion, valido);
+    public Pawn(int x, int y, String color, String Representacion) {
+        super(x, y, color, Representacion);
     }
-
-    
     
     public int getX() {
         return x;
@@ -55,11 +53,10 @@ public class Pawn extends Piezas{
     
     
     public void movimiento(){
-        if 
         if(fMove==true){
-            //poder mover hasta 2 casillas
-        }else{
-            //el peon se mueve normalmente
+            //poder mover hasta 2 
+       }else{
+            //
         }
     }
 }
