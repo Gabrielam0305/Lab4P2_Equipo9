@@ -58,7 +58,48 @@ public class Bishop extends Piezas{
 
     @Override
     public boolean movimiento(Object[][] o, int f, int c, int f1, int c1) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+         if (color.equals("negro")) {
+            if (o[f][c]=="P") {
+            if (o[f1][c1]=="") {
+                if ((y+2==c1)) {
+                    if (x-1==f1||x+1==f1) {
+                         return true;
+                    }else{
+                        return false;
+                    }
+                    
+                }else{
+                    return false;
+                }
+            }else{
+                    return false;
+                    
+                
+            }
+        }else{
+            return false;
+        }
+        }else{
+        if (o[f][c]=="P") {
+            if (o[f1][c1]=="") {
+                if ((y-2==c1)) {
+                    if (x-1==f1||x+1==f1) {
+                         return true;
+                    }else{
+                        return false;
+                    }
+            }else{
+                    return false;
+                    
+                
+            }
+        }else{
+            return false;
+        }
+        }else{
+            return false;
+        }
+    }
     }
     
     
