@@ -4,49 +4,47 @@
  */
 package lab4p2_equipo9;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author luism
  */
 public abstract class Piezas {
     
-    protected String x, y;
+    protected int x, y;
     protected String color;
     protected String Representacion;
 
-    public Piezas(String x, String y, String color, String Representacion) {
+    public Piezas(int x, int y, String color, String Representacion) {
         this.x = x;
         this.y = y;
         this.color = color;
         this.Representacion = Representacion;
     }
 
-    
-    
-
-   
-
-    
-
     public Piezas() {
     }
 
-    public String getX() {
+    
+
+    public int getX() {
         return x;
     }
 
-    public void setX(String x) {
+    public void setX(int x) {
         this.x = x;
     }
 
-    public String getY() {
+    public int getY() {
         return y;
     }
 
-    public void setY(String y) {
+    public void setY(int y) {
         this.y = y;
     }
 
+    
     
 
     public String getColor() {
@@ -67,5 +65,5 @@ public abstract class Piezas {
     
     
     
-    public abstract void movimiento();
+    public abstract boolean movimiento(Object [][]o);
 }

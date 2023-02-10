@@ -4,6 +4,8 @@
  */
 package lab4p2_equipo9;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author luism
@@ -11,29 +13,32 @@ package lab4p2_equipo9;
 public class Rook extends Piezas{
 
     public Rook() {
+        super();
     }
 
-    public Rook(String x, String y, String color, String Representacion) {
+    public Rook(int x, int y, String color, String Representacion) {
         super(x, y, color, Representacion);
     }
 
-    public String getY() {
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
         return y;
     }
 
-    public void setY(String y) {
+    public void setY(int y) {
         this.y = y;
     }
 
     
 
-    public String getX() {
-        return x;
-    }
-
-    public void setX(String x) {
-        this.x = x;
-    }
+    
 
     public String getColor() {
         return color;
@@ -50,12 +55,14 @@ public class Rook extends Piezas{
     public void setRepresentacion(String Representacion) {
         this.Representacion = Representacion;
     }
-    
-    
-    
+
     @Override
-    public void movimiento() {
+    public boolean movimiento(Object[][] o) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+    
+    
+    
+    
     
 }

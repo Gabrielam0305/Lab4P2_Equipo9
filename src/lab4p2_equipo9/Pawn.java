@@ -4,6 +4,8 @@
  */
 package lab4p2_equipo9;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author luism
@@ -15,7 +17,7 @@ public class Pawn extends Piezas{
         super();
     }
 
-    public Pawn(String x, String y, String color, String Representacion) {
+    public Pawn(int x, int y, String color, String Representacion) {
         super(x, y, color, Representacion);
     }
 
@@ -25,19 +27,19 @@ public class Pawn extends Piezas{
 
     
     
-    public String getX() {
+    public int getX() {
         return x;
     }
 
-    public void setX(String x) {
+    public void setX(int x) {
         this.x = x;
     }
 
-    public String getY() {
+    public int getY() {
         return y;
     }
 
-    public void setY(String y) {
+    public void setY(int y) {
         this.y = y;
     }
 
@@ -58,9 +60,12 @@ public class Pawn extends Piezas{
     public void setRepresentacion(String Representacion) {
         this.Representacion = Representacion;
     }
-    
-    
-    public void movimiento(){
-        
+
+    @Override
+    public ArrayList[][] movimiento() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+    
+    
+    
 }
