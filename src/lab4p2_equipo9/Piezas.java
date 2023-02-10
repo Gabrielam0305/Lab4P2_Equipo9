@@ -13,23 +13,16 @@ public abstract class Piezas {
     protected String x;
     protected String color;
     protected String Representacion;
-    protected boolean valido;
 
-    public Piezas(String x, int y, String color, String Representacion, boolean valido) {
-        this.x = x;
+    public Piezas(int y, String x, String color, String Representacion) {
         this.y = y;
+        this.x = x;
         this.color = color;
         this.Representacion = Representacion;
-        this.valido = valido;
     }
+    
 
-    public boolean isValido() {
-        return valido;
-    }
-
-    public void setValido(boolean valido) {
-        this.valido = valido;
-    }
+   
 
     
 

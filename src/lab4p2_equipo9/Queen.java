@@ -14,15 +14,17 @@ public class Queen extends Piezas{
         super();
     }
 
-    public Queen(int x, int y, String color, String Representacion) {
-        super(x, y, color, Representacion);
+    public Queen(int y, String x, String color, String Representacion) {
+        super(y, x, color, Representacion);
     }
+
     
-    public int getX() {
+    
+    public String getX() {
         return x;
     }
 
-    public void setX(int x) {
+    public void setX(String x) {
         this.x = x;
     }
 

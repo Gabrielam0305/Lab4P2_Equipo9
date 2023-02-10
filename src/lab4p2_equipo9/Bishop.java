@@ -17,10 +17,7 @@ public class Bishop extends Piezas{
     public Bishop(int y, String x, String color, String Representacion) {
         super(y, x, color, Representacion);
     }
-
-    
-
-    
+  
     
     public String getX() {
         return x;
