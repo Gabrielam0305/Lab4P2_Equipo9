@@ -9,16 +9,29 @@ package lab4p2_equipo9;
  * @author luism
  */
 public abstract class Piezas {
-    protected int x,y;
+    protected int x;
+    protected String y;
     protected String color;
     protected String Representacion;
+    protected boolean valido;
 
-    public Piezas(int x, int y, String color, String Representacion) {
+    public Piezas(int x, String y, String color, String Representacion, boolean valido) {
         this.x = x;
         this.y = y;
         this.color = color;
         this.Representacion = Representacion;
+        this.valido = valido;
     }
+
+    public boolean isValido() {
+        return valido;
+    }
+
+    public void setValido(boolean valido) {
+        this.valido = valido;
+    }
+
+    
 
     public Piezas() {
     }
@@ -31,11 +44,11 @@ public abstract class Piezas {
         this.x = x;
     }
 
-    public int getY() {
+    public String getY() {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(String y) {
         this.y = y;
     }
 

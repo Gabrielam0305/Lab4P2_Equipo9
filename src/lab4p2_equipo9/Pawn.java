@@ -9,14 +9,17 @@ package lab4p2_equipo9;
  * @author luism
  */
 public class Pawn extends Piezas{
-
+    private boolean fMove = true;
+    
     public Pawn() {
         super();
     }
 
-    public Pawn(int x, int y, String color, String Representacion) {
-        super(x, y, color, Representacion);
+    public Pawn(int x, int y, String color, String Representacion, boolean valido) {
+        super(x, y, color, Representacion, valido);
     }
+
+    
     
     public int getX() {
         return x;
@@ -52,6 +55,11 @@ public class Pawn extends Piezas{
     
     
     public void movimiento(){
-        
+        if 
+        if(fMove==true){
+            //poder mover hasta 2 casillas
+        }else{
+            //el peon se mueve normalmente
+        }
     }
 }
