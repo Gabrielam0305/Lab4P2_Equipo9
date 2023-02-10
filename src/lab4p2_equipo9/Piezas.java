@@ -62,7 +62,7 @@ public abstract class Piezas {
     
     
     
-    public abstract boolean movimiento(Object [][]o,int f, int c, int c1,int c2);
+    public abstract boolean movimiento(Object [][]o,int f, int c, int f1,int c1);
         
   
 }

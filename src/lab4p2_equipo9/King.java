@@ -59,7 +59,7 @@ public class King extends Piezas{
     
 
     @Override
-    public boolean movimiento(Object[][] o, int f, int c, int c1, int c2) {
+    public boolean movimiento(Object[][] o, int f, int c, int f1, int c1) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
